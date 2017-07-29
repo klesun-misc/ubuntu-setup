@@ -1,5 +1,7 @@
 # ubuntu-setup
-Steps i always do after fresh system install. Realized it should be put to script after reinstalling OS for 20-th time
+Steps i always do after fresh system install. Realized it should be put to script after reinstalling OS for 20-th time.
+
+If you are not me, this repository can probably be useful for you _just for reference_ on what actions geeks like me usually do when they setup their ubuntu. I strongly don't advise you to just run `ubuntu-setup.sh` without modifying it first, since it does some person-specific actions like setting my name/email in git config.
 
 - Run `ubuntu-setup.sh`
 
