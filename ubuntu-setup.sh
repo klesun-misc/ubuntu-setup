@@ -5,6 +5,7 @@ rm -R ~/Videos/ ~/Public/ ~/Templates/ ~/Pictures/ ~/Music/ ~/Documents/
 wget https://github.com/brahma-dev/synergy-stable-builds/releases/download/v1.8.8-stable/synergy-v1.8.8-stable-Linux-i686.deb
 sudo dpkg -i synergy-v1.8.8-stable-Linux-i686.deb
 rm synergy-v1.8.8-stable-Linux-i686.deb
+sudo apt-get install -f
 
 mkdir ~/big
 mkdir ~/big/gits
