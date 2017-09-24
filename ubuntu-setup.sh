@@ -1,5 +1,5 @@
 # run this script on a fresh xubuntu installation to install must-have apps
-sudo apt-get install vim geany clipit guake git sshfs openssh-server baobab chromium-browser python3-pip openjdk-8-jdk gimp vlc
+sudo apt-get install vim geany clipit guake git sshfs openssh-server baobab chromium-browser python3-pip openjdk-8-jdk gimp vlc samba
 rm -R ~/Videos/ ~/Public/ ~/Templates/ ~/Pictures/ ~/Music/ ~/Documents/
 
 wget https://github.com/brahma-dev/synergy-stable-builds/releases/download/v1.8.8-stable/synergy-v1.8.8-stable-Linux-i686.deb

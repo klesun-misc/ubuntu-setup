@@ -11,3 +11,13 @@ _manual steps follow..._
 - In clipit settings set shortcut to Alt+H instead of Ctrl+Alt+H
 - Download `bin` folder from this repository to your home directory (or make a simlink called "bin" in your home directory)
 - In "Session and Startup" app add `~/bin/onstartup.sh`
+- In `/etc/samba/smb.conf` add these lines:
+[big]
+path = /home/klesun/big
+read only = no
+writeable = yes
+browseable = yes
+guest ok = yes
+create mask = 777
+directory mask = 777
+- And then `sudo service smbd restart`
